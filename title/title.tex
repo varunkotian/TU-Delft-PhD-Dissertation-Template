@@ -1,0 +1,201 @@
+\begin{titlepage}
+
+\begin{center}
+
+%% Extra whitespace at the top.
+\vspace*{2\bigskipamount}
+
+%% Print the title.
+{\makeatletter
+\titlestyle\bfseries\LARGE\@title
+\makeatother}
+
+%% Print the optional subtitle.
+{\makeatletter
+\ifx\@subtitle\undefined\else
+    \bigskip
+    \titlefont\titleshape\Large\@subtitle
+\fi
+\makeatother}
+
+\end{center}
+
+\cleardoublepage
+\thispagestyle{empty}
+
+\begin{center}
+
+%% The following lines repeat the previous page exactly.
+
+\vspace*{4\bigskipamount}
+
+%% Print the title.
+{\makeatletter
+\titlestyle\bfseries\LARGE\@title
+\makeatother}
+
+%% Print the optional subtitle.
+{\makeatletter
+\ifx\@subtitle\undefined\else
+    \bigskip
+    \titlefont\titleshape\Large\@subtitle
+\fi
+\makeatother}
+
+%% Uncomment the following lines to insert a vertically centered picture into
+%% the title page.
+%\vfill
+%\includegraphics{title}
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+%% Apart from the names and dates, the following text is dictated by the
+%% promotieregelement.
+
+{\Large\titlefont\bfseries DISSERTATION}
+
+\bigskip
+
+for the purpose of obtaining the degree of doctor\\
+at Delft University of Technology,\\
+by the authority of the Rector Magnificus Prof.~dr.~ir.~H.~Bijl,\\
+chair of the Board for Doctorates,\\
+to be defended publicly on\\
+Thursday, 12 March 2026 at 12:30 pm
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+by
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+%% Print the full name of the author.
+\makeatletter
+{\Large\titlefont\bfseries\@firstname\ \titleshape{\MakeUppercase{\@lastname}}}
+\makeatother
+
+\bigskip
+
+% Master of Science in Mechanical Engineering, \\
+% Delft University of Technology, Netherlands,\\
+% born in Mumbai, India.
+
+%% Extra whitespace at the bottom.
+\vspace*{4\bigskipamount}
+
+\end{center}
+
+\clearpage
+\thispagestyle{empty}
+
+%% The following line is dictated by the promotieregelement.
+\noindent This dissertation has been approved by the promotors.
+
+%% List the promotors (supervisors).
+% \medskip\noindent
+% \begin{tabular}{l}
+%     promotor: Prof. dr. ir. R. Happee\\
+%     copromotor: Dr. ir. D. M. Pool
+% \end{tabular}
+
+\bigskip
+\noindent Composition of the doctoral committee:
+
+%% List the committee members, starting with the Rector Magnificus and the
+%% promotor(s) and ending with the reserve members.
+\medskip\noindent
+\begin{tabular}{p{4.5cm}l}
+    Rector Magnificus & Chairperson \\
+    Prof. dr. ir. R. Happee & Delft University of Technology, promotor \\
+    Dr. ir. D. M. Pool & Delft University of Technology, copromotor \\
+   % Dr. ir. B. Shyrokau, & Delft University of Technology \\
+
+    \medskip
+    \mbox{\emph{Independent members:}} & \\
+    Prof. dr. ir. M. Mulder & Delft University of Technology \\
+    Prof. dr. J.E. Bos & Vrije Universiteit Amsterdam, the Netherlands \\
+    Prof. dr. T. Wada & Nara Institute of Science and Technology, Japan \\
+    Prof. dr. J.F. Golding & University of Westminster, UK \\
+    Dr. T.K. Clark & University of Colorado, USA \\
+    
+    Prof. dr. J. Alonso-Mora & Delft University of Technology, reserve member \\  \\
+
+\end{tabular}
+
+\noindent Dr. B. Shyrokau from Delft University of Technology has contributed greatly to this dissertation.
+
+%% Include the following disclaimer for committee members who have contributed
+%% to this dissertation. Its formulation is again dictated by the
+%% promotieregelement.
+%\medskip
+%\noindent  %Prof.\ Dr.\ D.\ Spinellis has contributed to the creation of this thesis.
+
+% \medskip
+% \medskip
+% TODO Include http://www.win.tue.nl/ipa/?page_id=309
+\noindent The work in this thesis was made possible by the TIPP project funded by Toyota Motor Europe. 
+% Additionally, support for the work in Japan was provided by the European Union Horizon 2020 Framework Program, Marie Sklodowska-Curie actions, under grant agreement no. 872907.
+
+\medskip
+%% Here you can include the logos of any institute that contributed financially
+%% to this dissertation.
+\vfill
+\includegraphics[width=0.4\textwidth]{title/logos/tudelft.eps}
+\hspace{2em}
+%\includegraphics[height=0.5in]{title/logos/casimir} \\
+\includegraphics[width=0.4\textwidth]{title/logos/toyota-seeklogo.png}
+\\ 
+% \vspace{0.5cm}
+
+
+% \vfill
+
+\noindent
+\begin{tabular}{@{}p{0.15\textwidth}@{}p{0.85\textwidth}}
+      \textit{Keywords:} &  Comfort, Discomfort, Motion sickness, Motion perception, Modelling, Driving simulators, Automated vehicles, Vision, Personalisation \medskip \\[\medskipamount]
+      \textit{Printed by:} & Gildeprint \\[\medskipamount]
+      \textit{Cover:} & Rucha Khot \\[\medskipamount]
+      \textit{Style:} & TU Delft House Style, with modifications by Moritz Beller and Varun Kotian \\& \url{https://github.com/Inventitech/phd-thesis-template} \\[\medskipamount]
+\end{tabular}
+
+\medskip
+\medskip
+\noindent The author set this thesis in \LaTeX\xspace using the Libertinus and Inconsolata fonts.
+
+\vspace{\bigskipamount}
+
+% Copyrighting this is stupid, questionable, and probably illegal, because large parts of the
+% thesis have already been published with the copyright resigning with the publisher.
+%\noindent Copyright \textcopyright\ 2015 by A.~Einstein
+
+%% Uncomment the following lines if this dissertation is part of the Casimir PhD
+%% Series, or a similar research school.
+%\medskip
+%\noindent Casimir PhD Series, Delft-Leiden 2015-01
+
+%\medskip
+\noindent Copyright \faCopyright \ 2026 by Varun Kotian\\
+\noindent ISBN 978-94-6518-261-2 
+
+\medskip
+\noindent An electronic version of this dissertation is available at \\
+\url{http://repository.tudelft.nl/}.
+
+\end{titlepage}
+
