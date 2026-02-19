@@ -17,11 +17,27 @@ the template.
 
 Here is a side-by-side comparison of the two styles.
 
-| Old Style       |  Inventitech |  New (this template) |
-:----------------:|:---------------------:|:---------------------:
-![](readme-pics/prev_chapter.png) | ![](readme-pics/Inventitech_chapter.png) | ![](readme-pics/new_chapter.png)
-![](readme-pics/prev_page.png) | ![](readme-pics/Inventitech_page.png) | ![](readme-pics/new_page.png)
-
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="33%">Old Style</th>
+      <th width="33%">Inventitech</th>
+      <th width="33%">New (this template)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><img src="readme-pics/prev_chapter.png" width="100%"></td>
+      <td align="center"><img src="readme-pics/Inventitech_chapter.png" width="100%"></td>
+      <td align="center"><img src="readme-pics/new_chapter.png" width="100%"></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="readme-pics/prev_page.png" width="100%"></td>
+      <td align="center"><img src="readme-pics/Inventitech_page.png" width="100%"></td>
+      <td align="center"><img src="readme-pics/new_page.png" width="100%"></td>
+    </tr>
+  </tbody>
+</table>
 
 Note that there
 are small differences between the online and print versions (such as
