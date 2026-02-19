@@ -5,16 +5,7 @@ all: dissertation.pdf propositions.pdf dissertation_print.pdf
 
 force-build:
 
-
-figs: figs/development_model_without_papers.pdf figs/development_model_just_papers.pdf
-
-figs/development_model_without_papers.pdf:
-	rsvg-convert -f pdf -o  figs/development_model_without_papers.pdf figs/development_model_without_papers.svg
-
-figs/development_model_just_papers.pdf:
-	rsvg-convert -f pdf -o  figs/development_model_just_papers.pdf figs/development_model_just_papers.svg
-
-dissertation.pdf: figs force-build
+dissertation.pdf: 
 	latexmk -xelatex dissertation
 	makeglossaries dissertation
 
