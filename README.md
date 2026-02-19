@@ -18,7 +18,7 @@ the template.
 Here is a side-by-side comparison of the two styles.
 
 | Old Style       |  Inventitech |  New (this template) |
-:----------------:|:---------------------:
+:----------------:|:---------------------:|:---------------------:
 ![](readme-pics/prev_chapter.png) | ![](readme-pics/Inventitech_chapter.png) | ![](readme-pics/new_chapter.png)
 ![](readme-pics/prev_page.png) | ![](readme-pics/Inventitech_page.png) | ![](readme-pics/new_page.png)
 
